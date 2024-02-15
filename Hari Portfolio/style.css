@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+nav{
+    background-color: black;
+    font-family: Comic Sans MS;
+    color: white;
+    padding-left: 150px;
+    padding-top: 35px;
+}
+
+h1,ul,li{
+    display: inline;
+
+}
+
+ul{
+    margin-left: 40%;
+}
+
+li{
+    color: white;
+    cursor: pointer;
+}
+
+/* li:hover{
+    color: rgb(211, 77, 99);
+} */
+
+
+.bio{
+    background-color: black;
+    font-family: Comic Sans MS;
+    padding: 250px;
+    color: white;
+    padding-top: 140px;
+}
+
+.about {
+    background-color:white;
+    color: black;
+    text-align: justify;
+    line-height: 30px;
+    padding-top: 50px;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about p{
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: justify;
+}
+
+.about button{
+    width: 100px;
+    height: 50px;
+    margin-left: 630px;
+    background-color: #ff004f;
+    cursor: pointer;
+    border: 2px solid #ff004f;
+    border-radius: 5px;
+    /* transition: 0.3s; */
+}
+
+button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.projects{
+    background-color: black;
+    margin-top: 50px;
+    padding: 300px;
+    /* margin: 0px 0px 60px;
+    padding: 0px 0px 40px; */
+}
+
+.projects h1{
+    color: white;
+    position: absolute;
+    top: 1090px;
+    left: 600px;
+    
+    
+}
+.box1{
+    background-color: rgb(19, 17, 17);
+    width: 400px;
+    height: 270px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    position: absolute;
+    left: 40px;
+    top: 1250px;
+}
+
+.box2{
+    background-color:rgb(19, 17, 17);
+    width: 400px;
+    height: 270px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    position: absolute;
+    left: 470px;
+    top: 1250px;
+}
+
+.box3{
+    background-color: rgb(19, 17, 17);
+    width: 400px;
+    height: 270px;
+    /* border: 2px solid grey; */
+    border-radius: 5px;
+    position: absolute;
+    left: 900px;
+    top: 1250px;
+}
+
+.box1:hover{
+    background-color: #ff004f;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box2:hover{
+    background-color: #ff004f;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box3:hover{
+    background-color: #ff004f;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.box{
+    color: white;
+    text-align: center;
+}
+
+.box h3{
+    color: white;
+    position: relative;
+    top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.box p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 90px;
+}
+
+
+.skills{
+    color: black;
+    padding-top: 50px;
+}
+
+.skill1{
+    color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid none;
+    background-color: rgb(19, 17, 17);
+    position: relative;
+    left: 470px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill2{
+    color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid none;
+    background-color:  rgb(19, 17, 17);
+    position: relative;
+    left: 470px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill3{
+    color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid none;
+    background-color:  rgb(19, 17, 17);
+    position: relative;
+    left: 470px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill4{
+    color: white;
+    width: 400px;
+    height: 40px;
+    border: 2px solid none;
+    background-color: rgb(19, 17, 17);
+    position: relative;
+    left: 470px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.skill1:hover{
+    background-color: #ff004f;
+}
+
+.skill2:hover{
+    background-color: #ff004f;
+}
+
+.skill3:hover{
+    background-color: #ff004f;
+}
+
+.skill4:hover{
+    background-color: #ff004f;
+}
+
+.contact-left{
+    background-color: black;
+    margin-top: 50px;
+    padding: 150px;
+}
+
+.contact h1{
+    color: white;
+    position: relative;
+    top: -100px;
+}
+
+/* .p{
+    position: relative;
+    color: white;
+    left: 520px;
+} */
+
+h2{
+    color: white;
+    position: relative;
+    left: -20px;
+    top: -50px;
+}
+.text{
+    color: white;
+    position: relative;
+    left: -20px;
+    border: 1px solid black;
+    width: 50%;
+    height: 50px;
+    top: -60px;
+}
+
+.name {
+    position: absolute;
+    top: 2320px;
+    left: 140px;
+}
+
+.par1{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: -20px;
+}
+
+.mail {
+    position: absolute;
+    top: 2405px;
+    left: 135px;
+}
+
+.par2{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.call{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 50px;
+    left: -10px;
+}
+
+.par3{
+    color: white;
+    position: relative;
+    left: 60px;
+    top: -15px;
+    line-height: 30px;
+}
+
+
+
